@@ -1,5 +1,5 @@
 # Spam-Detection App
-The App is developed to classify whether the input text is a spam or not.
+The App is developed to classify whether the input text provided by the user is a spam or not.
 
 # Dataset and Modelling
 The dataset contains of test data which has categories of spam/ham.
@@ -15,3 +15,4 @@ Project consist app.py script which is used to run the application and is engine
 prediction.py contains code to build and train a Machine learning model.
 templates folder contains two files main.html and result.html which describe the structure of the app and the way this web application behaves. These files are connected with Python via Flask framework.
 static folder contains file style.css which adds some styling and enhance the look of the application.
+We are using GaussianNB algorithm to predict the text into spam or not spam and save the model which will be used for classification.
