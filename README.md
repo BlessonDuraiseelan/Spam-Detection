@@ -1,17 +1,21 @@
 # Spam-Detection App
-The App is developed to classify whether the input text provided by the user is a spam or not.
+This  WebApp is developed to classify whether the input text provided by the user is a spam or not.
 
 # Dataset and Modelling
 The dataset contains of test data which has categories of spam/ham.
-Being able to identify spam messages is a binary classification problem as messages are classified as either 'Spam' or 'Not Spam' and nothing else. Also, this is a supervised learning problem, as we will be feeding a labelled dataset into the model, that it can learn from, to make future predictions.
+Being able to identify spam messages is a binary classification problem as messages are classified as either 'Spam' or 'Not Spam' where previous data are collected which have been categorised as Spam or Ham. Also, this is a supervised learning problem, as we will be feeding a labelled dataset into the model, that it can learn from, to make future predictions.
 
+# Algorithm and processing.
+The dataset is obtained and undergoes data pre processing techniques.The pre processing techniques consist checking it the data is of text format and does not satify unrequired patterns. After that we will remove the stopwords and make the data ready for processing. Once the data is pre processed then we apply count vectorizer method which will convert the data  into a matrix format and contain 0s and 1s value signifying the words present or not present in a record. Then we apply the Gaussian Naive Bayes Algorithm which will be used to predict if the text inout by the user was spam or not.
+
+# Project Working
 This Project is mainly divided into two parts:
 
 Exploring the dataset, Preprocessing texts and traning the model using Sklearn.
 Building and hosting a flask web app on Heroku.
 About the repository Structure :
 
-Project consist app.py script which is used to run the application and is engine of this app. contians API that gets input from the user and computes a predicted value based on the model.
+Project consists app.py script which is used to run the application and is engine of this app. contians API that gets input from the user and computes a predicted value based on the model.
 
 sms_classifier_model.py contains code to build and train a Machine learning model.
 templates folder contains two files main.html and result.html which describe the structure of the app and the way this web application behaves. These files are connected with Python via Flask framework.
