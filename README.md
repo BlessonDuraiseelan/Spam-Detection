@@ -5,7 +5,7 @@ This  WebApp is developed to classify whether the input text provided by the use
 The dataset contains of test data which has categories of spam/ham.
 Being able to identify spam messages is a binary classification problem as messages are classified as either 'Spam' or 'Not Spam' where previous data are collected which have been categorised as Spam or Ham. Also, this is a supervised learning problem, as we will be feeding a labelled dataset into the model, that it can learn from, to make future predictions.
 
-# Algorithm and processing.
+# Algorithm and processing
 The dataset is obtained and undergoes data pre processing techniques.The pre processing techniques consist checking it the data is of text format and does not satify unrequired patterns. After that we will remove the stopwords and make the data ready for processing. Once the data is pre processed then we apply count vectorizer method which will convert the data  into a matrix format and contain 0s and 1s value signifying the words present or not present in a record. Then we apply the Gaussian Naive Bayes Algorithm which will be used to predict if the text inout by the user was spam or not.
 
 # Project Working
@@ -26,6 +26,8 @@ The app can be run on localhost.
 ![140600193-88639597-52de-4dce-ba6a-06b80cbe94f2](https://user-images.githubusercontent.com/76935226/140602017-5566fbed-1158-423a-932a-8eac8f9fda19.png)
 ![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/140602021-5b17c271-b788-4b43-a018-b84cba1dc617.jpg)
 ![image](https://user-images.githubusercontent.com/76935226/140602029-62bce97e-5ba9-4087-89fc-7e66f905ec1a.png)
+![download](https://user-images.githubusercontent.com/76935226/147869700-17dacd03-d57d-4b53-bdfe-53661aca4cc1.png)
+
 
 # Working of App
 
