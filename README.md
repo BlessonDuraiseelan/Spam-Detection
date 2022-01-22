@@ -1,5 +1,5 @@
 # Spam-Detection App
-This  WebApp is developed to classify whether the input text provided by the user is a spam or not.
+This Python WebApp is developed to classify whether the input text provided by the user is a spam or not.
 
 # Dataset and Modelling
 The dataset contains of test data which has categories of spam/ham.
